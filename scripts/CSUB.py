@@ -12,3 +12,15 @@ for i in range(test_cases):
             total += carry
             carry += 1
     print(total)    
+
+# cook your dish here
+# test_cases = int(input())
+# for _ in range(test_cases):
+#     n = int(input())
+#     digits = list(str(input()))
+#     coff,count = 0,0
+#     for i in range(len(digits)):
+#         if(digits[i] == '1'):
+#             count += 1 + coff
+#             coff += 1
+#     print(count)
