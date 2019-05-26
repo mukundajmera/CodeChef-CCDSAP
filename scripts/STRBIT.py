@@ -8,7 +8,8 @@ for _ in range(test_cases):
     count , check = 0 , 0
     for i in range(n):
         check += memory[i]
-        if(not(check%2) and str[i]=='G') or ((check)%2 and str[i] == 'R'):
+        if(not(check%2) and str[i]=='G') or 
+        ((check)%2 and str[i] == 'R'):
             continue
         check += 1
         count += 1
